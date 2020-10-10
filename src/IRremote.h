@@ -60,7 +60,7 @@
 #define DECODE_MITSUBISHI    1
 #define SEND_MITSUBISHI      0 // NOT WRITTEN
 
-//#define USE_NEC_STANDARD // remove comment to have the standard NEC decoding (LSB first) available.
+#define USE_NEC_STANDARD // remove comment to have the standard NEC decoding (LSB first) available.
 #if defined(USE_NEC_STANDARD)
 #define DECODE_NEC_STANDARD  1
 #define DECODE_NEC           0
