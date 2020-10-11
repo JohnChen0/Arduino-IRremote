@@ -80,7 +80,7 @@ extern struct irparams_struct irparams;
  * To compensate for this, MARK_EXCESS_MICROS is subtracted from all marks,
  * and added to all spaces.
  */
-#define MARK_EXCESS_MICROS    100
+#define MARK_EXCESS_MICROS    0
 
 /** Relative tolerance (in percent) for some comparisons on measured data. */
 #define TOLERANCE       25
